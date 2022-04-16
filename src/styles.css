@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 2251px;
+  background: #FFFFFF;
+}

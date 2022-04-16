@@ -1,0 +1,59 @@
+
+.imgmain{
+  position: absolute;
+  top: 125px;
+  left: 30px;
+}
+
+
+#bannertext {
+  position: absolute;
+  width: 1283px;
+  height: 43px;
+  left: 12px;
+  top: -20px;
+
+}
+
+.best{
+  position: absolute;
+  width: 309px;
+  height: 43px;
+  left: 91px;
+  top: 41px;
+  color: #C0C37F;
+}
+
+.top{
+  position: absolute;
+  width: 432px;
+  height: 43px;
+  left: 558px;
+  top: 41px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.about{
+  position: absolute;
+  width: 226px;
+  height: 43px;
+  left: 1148px;
+  top: 41px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.htext{
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+
+}
+
+button {
+  border: white;
+  box-shadow:none;
+  outline: none;
+  cursor: pointer;
+}
