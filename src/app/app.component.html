@@ -1,11 +1,15 @@
-
-
-<div>
-  <app-header>
-  </app-header>
+<div id="bannertext">
+  <div class="htext">
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+  <div class="navbar-nav">
+    <div class="best"><a class="nav-item nav-link" routerLink="/home">Best Sellers</a></div>
+<!--    <div><a class="nav-item nav-link" routerLink="/login">Login</a></div>-->
+<!--      <div><a class="nav-item nav-link" routerLink="/register">Register</a></div>-->
+        <div class="top"><a class="nav-item nav-link" routerLink="/releases">Top Releases</a></div>
+          <div class="about"><a class="nav-item nav-link" routerLink="/about">About us</a></div>
+          <div class="account-position" ><a class="account-action" role="button"><img src="assets/images/account.svg"></a> </div>
+  </div>
+</nav>
 </div>
-<div>
-  <app-booktable>
-  </app-booktable>
+  <router-outlet></router-outlet>
 </div>
-

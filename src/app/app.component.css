@@ -1,10 +1,51 @@
-html {
-  scroll-behavior: smooth;
+
+#bannertext {
+  position: relative;
+  top: 10px;
+
 }
 
-body {
-  position: relative;
-  width: 1440px;
-  height: 2251px;
-  background: #FFFFFF;
+.best{
+  position: absolute;
+  left: 59px;
+  top: 41px;
+  color: #C0C37F;
+  text-decoration: none;
 }
+/*590*/
+.top{
+  position: absolute;
+  color: rgba(0, 0, 0, 0.7);
+  left: 535px;
+  top: 41px;
+  text-decoration: none;
+}
+.about{
+  position: absolute;
+  left: 1047px;
+  top: 41px;
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+
+.htext{
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+
+}
+a, u {
+  text-decoration: none;
+  color: inherit;
+}
+.account-position{
+  position: absolute;
+  left: 1387px;
+  top: 32px;
+}
+.account-action{
+  cursor: pointer;
+}
+
