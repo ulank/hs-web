@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  left: 0;
+  width: 1440px;
+  height:2000px
+}
+.searchbar{
+  position: relative;
+  left: 1200px;
+  top: 62px;
+}
+.booktable{
+  position: relative;
+  top: 102px;
+}

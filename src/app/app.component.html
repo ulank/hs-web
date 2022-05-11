@@ -2,14 +2,30 @@
   <div class="htext">
 <nav class="navbar navbar-expand navbar-dark bg-dark">
   <div class="navbar-nav">
-    <div class="best"><a class="nav-item nav-link" routerLink="/home">Best Sellers</a></div>
+    <div class="best"><a class="nav-item nav-link" routerLink="/main" routerLinkActive="visitedLinkColor" >Best Sellers</a></div>
+        <div class="top"><a class="nav-item nav-link" routerLink="/releases" routerLinkActive="visitedLinkColor" >Top Releases</a></div>
+          <div class="about"><a class="nav-item nav-link" routerLink="/about" routerLinkActive="visitedLinkColor" >About us</a></div>
+          <div class="container"  >
+            <button (click)="clickProfile()"><img src="assets/images/account.svg"></button>
+              <div *ngIf="showProfile">
+                <ul class="profile-menu">
+                  <li><a class="nav-item nav-link" routerLink="/login">Sign in</a></li>
+                  <li> Settings</li>
+                </ul>
+          </div>
+  </div>
+    </div>
+  </nav>
+  </div>
+</div>
+    <div>
+      <div class="ui simple dropdown item"> </div>
+    </div>
+
+  <router-outlet></router-outlet>
+
+
+
+
 <!--    <div><a class="nav-item nav-link" routerLink="/login">Login</a></div>-->
 <!--      <div><a class="nav-item nav-link" routerLink="/register">Register</a></div>-->
-        <div class="top"><a class="nav-item nav-link" routerLink="/releases">Top Releases</a></div>
-          <div class="about"><a class="nav-item nav-link" routerLink="/about">About us</a></div>
-          <div class="account-position" ><a class="account-action" role="button"><img src="assets/images/account.svg"></a> </div>
-  </div>
-</nav>
-</div>
-  <router-outlet></router-outlet>
-</div>

@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  left: 0;
+  width: 1440px;
+  height:1024px /
+}
+
+#rectangle{
+  position: relative;
+  width: 1204px;
+  height: 652px;
+  left: 118px;
+  top: 186px;
+  background:#C4C4C4;
+  border-radius: 10px;
+}

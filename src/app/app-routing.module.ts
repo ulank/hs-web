@@ -7,7 +7,7 @@ import {TopnewreleasesComponent} from "./pages/topnewreleases/topnewreleases.com
 import {AboutusComponent} from "./pages/aboutus/aboutus.component";
 
 const routes: Routes = [
-  { path: 'home', component:HomeComponent},
+  { path: 'main', component:HomeComponent},
   { path: 'login', component:LoginComponent},
   { path: 'register', component:RegisterComponent},
   { path: 'releases', component:TopnewreleasesComponent},
